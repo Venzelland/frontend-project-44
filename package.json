@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/Venzelland/frontend-project-44/issues"
   },
+  "type": "module",
   "homepage": "https://github.com/Venzelland/frontend-project-44#readme"
 }
