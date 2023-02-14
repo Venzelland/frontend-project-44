@@ -1,4 +1,6 @@
 #!/usr/bin/env node
 import name from '../src/cli.js';
-console.log("Welcome to the Brain Games!");
-console.log('Hi, ' + name + '!');
+
+const salut = console.log("Welcome to the Brain Games!\nHi, " + name + "!");
+
+export default salut;
