@@ -30,13 +30,13 @@ if(answer === "no") {
 
 		} else {
 
-			console.log("\'" + answer + "\' is wrong answer ;(. Correct answer was \'no\'.\n Let's try again, " + name + "!")
+			console.log("\'" + answerthree + "\' is wrong answer ;(. Correct answer was \'no\'.\n Let's try again, " + name + "!")
 
 		}
 
 	} else {
 
-		console.log("\'" + answer + "\' is wrong answer ;(. Correct answer was \'yes\'.\n Let's try again, " + name + "!")
+		console.log("\'" + answertwo + "\' is wrong answer ;(. Correct answer was \'yes\'.\n Let's try again, " + name + "!")
 
 	}
 
