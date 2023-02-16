@@ -5,3 +5,4 @@
 ### asciinema.org:
 exercise №5 https://asciinema.org/a/98qg9Q0amTuhWOOD2h1qsNTLU
 exercise №6 https://asciinema.org/a/ommrw4IDZLMNyF8D1b8DEZTcr
+exercise №7 https://asciinema.org/a/cRQr8eajTjHc8romFtnvdCwNM
