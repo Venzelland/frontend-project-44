@@ -34,5 +34,3 @@ const getQuestionAndAnswer = () => {
 export default () => {
   runGame(description, getQuestionAndAnswer);
 };
-
-// add
