@@ -14,13 +14,12 @@ export default (description, getQuestionAndAnswer) => {
     console.log(`Question: ${question}`);
     const playerAnswer = readlineSync.question('You answer: ');
 
-    if (correctAnswer === playerAnswer) {
-      console.log('Correct!');
-    } else {
-      console.log(`'${playerAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
-      console.log(`Let's try again, ${playerName}`);
-      return;
-    }
+    if (correctAnswer === !playerAnswer) {
+		console.log(`'${playerAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
+		console.log(`Let's try again, ${playerName}`);
+		return;
+    } 
+		console.log('Correct!');
   }
   console.log(`Congratulations, ${playerName}`);
 };
