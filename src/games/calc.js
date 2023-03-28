@@ -4,12 +4,6 @@ import { getRandomNumber } from '../utils.js';
 const operationSymbols = ['+', '-', '*'];
 const description = 'What is the result of the expression?';
 
-// const getRandomOperationSymbol = (symbols) => {
-//   const symbolsLength = symbols.length;
-//   const randomIndex = getRandomNumber(0, symbolsLength);
-//   const randomSymbol = symbols[randomIndex];
-//   return randomSymbol;
-// };
 const getRandomOperationSymbol  = () => operationSymbols[getRandomNumber(0, (operationSymbols.length - 1))];
 
 
@@ -24,7 +18,6 @@ const calcArithmeticOperation = (symbol, firstValue, secondValue) => {
     case '*': 
 	return firstValue * secondValue;
 	
-    // default: return null;
 	default: 
 		throw new Error(`Unknown symbol: '${symbol}'!`);
   }

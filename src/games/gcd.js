@@ -4,15 +4,11 @@ import { getRandomNumber } from '../utils.js';
 const description = 'Find the greatest common divisor of given numbers';
 
 const getGreatestCommonDivisor = (firstItem, secondItem) => {
-  const minNumber = Math.min(firstItem, secondItem); // не вижу, как можно это использовать 
-  if (firstItem === 0 || secondItem === 0) {
-    return firstItem + secondItem;
-  }
-  if (firstItem > secondItem) {
-    return getGreatestCommonDivisor(firstItem - secondItem, secondItem);
-  }
-  return getGreatestCommonDivisor(firstItem, secondItem - firstItem);
-};
+	if (secondItem === 0) {
+	  return firstItem;
+	}
+	return getGreatestCommonDivisor(secondItem, firstItem % secondItem);
+  };
 
 const getQuestionAndAnswer = () => {
   const firstNumber = getRandomNumber(1, 50);

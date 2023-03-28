@@ -15,15 +15,6 @@ const isPrimeNumber = (number) => {
 	return true;
   };
 
-// const isPrimeNumber = (number) => {
-//   for (let a = 2; a < number; a += 1) {
-//     if (number % a === 0) {
-//       return false;
-//     }
-//   }
-//   return true;
-// };
-
 const getQuestionAndAnswer = () => {
   const question = getRandomNumber(2, 50);
   const correctAnswer = isPrimeNumber(question) ? 'yes' : 'no';
