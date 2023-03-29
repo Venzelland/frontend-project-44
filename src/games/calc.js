@@ -8,13 +8,13 @@ const getRandomOperationSymbol = () => operationSymbols[getRandomNumber(0, (oper
 
 const calcArithmeticOperation = (symbol, firstValue, secondValue) => {
   switch (symbol) {
-    case '+':
+case '+':
       return firstValue + secondValue;
-    case '-':
+case '-':
       return firstValue - secondValue;
-    case '*':
+case '*':
       return firstValue * secondValue;
-    default:
+default:
       throw new Error(`Unknown symbol: '${symbol}'!`);
   }
 };
