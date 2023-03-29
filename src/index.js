@@ -16,7 +16,7 @@ export default (description, getQuestionAndAnswer) => {
 
 	if (correctAnswer !== playerAnswer) {
 		console.log(`'${playerAnswer}' is the wrong answer ;(. The correct answer was '${correctAnswer}'`);
-	    console.log(`Let's try again, ${playerName}`);
+	    console.log(`Let's try again, ${playerName}!`);
 		return;
 	  }
 	  console.log('Correct!');
