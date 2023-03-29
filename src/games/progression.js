@@ -5,9 +5,9 @@ const description = 'What number is missing in the progression?';
 
 const getArithmeticProgression = (startNumber, step, length) => {
   const progression = [];
-  for (let i = 0; i < length; i++) {
+  for (let i = 0; i < length; i += 1) {
     progression.push(startNumber);
-    startNumber += step;
+    let startNumber += step;
   }
   return progression.join(' ');
 };
