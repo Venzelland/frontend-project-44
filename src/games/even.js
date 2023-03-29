@@ -11,6 +11,7 @@ const getQuestionAndAnswer = () => {
   return [question, correctAnswer];
 };
 
+
 export default () => {
   runGame(description, getQuestionAndAnswer);
 };
