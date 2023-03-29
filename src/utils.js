@@ -1,4 +1,1 @@
-export const getRandomNumber = (minRange, maxRange) => {
-  return Math.floor(Math.random() * (maxRange - minRange + 1) + minRange);
-};
-  
+export const getRandomNumber = (minRange, maxRange) => Math.floor(Math.random() * (maxRange - minRange + 1) + minRange);
