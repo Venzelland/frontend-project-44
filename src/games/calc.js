@@ -4,9 +4,9 @@ import { getRandomNumber } from '../utils.js';
 const operationSymbols = ['+', '-', '*'];
 const description = 'What is the result of the expression?';
 
-const getRandomOperationSymbol = () => {
-  operationSymbols[getRandomNumber(0, (operationSymbols.length - 1))];
-};
+const getRandomOperationSymbol = () => operationSymbols[
+  getRandomNumber(0, operationSymbols.length - 1)
+];
 
 const calcArithmeticOperation = (symbol, firstValue, secondValue) => {
   switch (symbol) {
