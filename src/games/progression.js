@@ -19,7 +19,7 @@ const getQuestionAndAnswer = () => {
 	const progressionLength = progression.length;
 	const randomIndex = getRandomNumber(0, progressionLength - 1);
 	const correctAnswer = String(progression[randomIndex]);
-	progression[randomIndex] = '...';
+	progression[randomIndex] = '..';
 	return [progression, correctAnswer];
   };
 
