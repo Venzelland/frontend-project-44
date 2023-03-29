@@ -5,10 +5,13 @@ const description = 'What number is missing in the progression?';
 
 const getArithmeticProgression = (startNumber, step, length) => {
   const progression = [];
+  let currentNumber = startNumber;
+
   for (let i = 0; i < length; i += 1) {
-    progression.push(startNumber);
-    let startNumber += step;
+    progression.push(currentNumber);
+    currentNumber += step;
   }
+
   return progression.join(' ');
 };
 
